@@ -1,4 +1,4 @@
-package testing
+package testing_with_testing
 
 func Max(numbers []int) int {
 	var max int

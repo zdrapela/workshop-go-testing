@@ -1,4 +1,4 @@
-package testing
+package testing_with_testing
 
 import "testing"
 
@@ -8,6 +8,3 @@ func TestMax(t *testing.T) {
 		t.Errorf("Expected %d, got %d", 4, actual)
 	}
 }
-
-// Every test file ends with *_test.go
-// Tests are usually in

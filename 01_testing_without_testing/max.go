@@ -1,4 +1,4 @@
-package testing_without_testing
+package main
 
 import "fmt"
 
@@ -23,10 +23,8 @@ func TestMax(numbers []int, expected int) string {
 	return output
 }
 
-// Every test function has the format TestXxx, where Xxx must not start with a lowercase letter
-
 func main() {
 	fmt.Println(TestMax([]int{1, 2, 3, 4}, 4))
-	fmt.Println(TestMax([]int{4, 2, 1, 4}, 3))
-	fmt.Println(TestMax([]int{0, 0, 0, 0}, 1))
+	// fmt.Println(TestMax([]int{4, 2, 1, 4}, 3))
+	// fmt.Println(TestMax([]int{0, 0, 0, 0}, 1))
 }

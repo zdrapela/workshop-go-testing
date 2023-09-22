@@ -38,7 +38,7 @@ func TestMathMax(t *testing.T) {
 	for testIndex, tc := range cases {
 		actual := math.Max(tc.arg1, tc.arg2)
 		if actual != tc.expected {
-			t.Errorf("Test #%d: Max(%f, %f): Expected %f, got %f", testIndex, tc.arg1, tc.arg2, tc.expected, actual)
+			t.Errorf("Test %d: Max(%f, %f): Expected %f, got %f", testIndex, tc.arg1, tc.arg2, tc.expected, actual)
 		}
 	}
 }
